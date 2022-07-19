@@ -1,0 +1,102 @@
+{
+  "animeList": [
+    {
+      "id": 1,
+      "title": "One piece",
+      "episodes": "1026 +",
+      "format": "TV",
+      "episode_duration": "24 min",
+      "start_date": "Oct 20, 1999",
+      "average_score": "87%",
+      "popularity": 353714,
+      "studios": "Toei Animation",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21-tXMN3Y20PIL9.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Death Note",
+      "episodes": "37",
+      "format": "TV",
+      "episode_duration": "23 min",
+      "start_date": "Oct 4, 2006",
+      "average_score": "84%",
+      "popularity": 540294,
+      "studios": "MADHOUSE",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1535-lawCwhzhi96X.jpg"
+    },
+
+    {
+      "id": 3,
+      "title": "HUNTER×HUNTER",
+      "episodes": "148",
+      "format": "TV",
+      "episode_duration": "24 min",
+      "start_date": "Oct 2, 2011",
+      "average_score": "89%",
+      "popularity": 490088,
+      "studios": "MADHOUSE",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136-gj0bbCpDNrKG.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Steins Gate",
+      "episodes": "24",
+      "format": "TV",
+      "episode_duration": "24 min",
+      "start_date": "Apr 6, 2011",
+      "average_score": "89%",
+      "popularity": 350186,
+      "studios": "White Fox",
+
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10863-V6oW2kN8bBYf.png"
+    },
+    {
+      "id": 5,
+      "title": "Gintama",
+      "episodes": "51",
+      "format": "TV",
+      "episode_duration": "24 min",
+      "start_date": "Apr 8, 2015",
+      "average_score": "90%",
+      "popularity": 75260,
+      "studios": "Bandai Namco",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20996-kBEGEGdeK1r7.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Kimetsu no Yaiba",
+      "episodes": "26",
+      "format": "TV",
+      "episode_duration": "24 min",
+      "start_date": "Apr 6, 2019",
+      "average_score": "84%",
+      "popularity": 546482,
+      "studios": "ufotable",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142329-kET1PIXJv2eW.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Boku no Hero Academia",
+      "episodes": "13",
+      "format": "TV",
+      "episode_duration": "24 min",
+      "start_date": "Apr 3, 2016",
+      "average_score": "78%",
+      "popularity": 529600,
+      "studios": "bones",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100723-7f5e1BCTCDoB.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Shingeki no Kyojin",
+      "episodes": "25",
+      "format": "TV",
+      "episode_duration": "24 min",
+      "start_date": "Apr 7, 2013",
+      "average_score": "84%",
+      "popularity": 594135,
+      "studios": "Wit Studio",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110277-qDRIhu50PXzz.jpg"
+    }
+  ]
+}

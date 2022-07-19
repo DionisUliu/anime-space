@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200;300;400;500;600;700&display=swap');
+
+body {
+  background-color: #edf1f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.image_container {
+  flex: 0.5;
+  object-fit: cover;
+}
+
+.image_container > article img {
+  box-shadow: #6784bb45 0px 20px 25px -5px, #6784bb51 0px 10px 10px -5px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.wrapper_details {
+  display: flex;
+}
+
+.details_card {
+  margin-left: 10px;
+  width: 100%;
+  flex: 0.5;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: #6784bb45 0px 20px 25px -5px, #6784bb51 0px 10px 10px -5px;
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+  grid-template-rows: repeat(3, 150px);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.icon_style {
+  color: #758898;
+}
+
+.span_style {
+  display: grid;
+  gap: 10px;
+  padding-top: 150px;
+}
+
+.details_font_style {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 700;
+  color: #404c55;
+}
+
+.title_style {
+  align-self: flex-start;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 600;
+  color: #52616c;
+}
+
+.title_navigate_container {
+  display: flex;
+  justify-content: space-between;
+}
+.navigate_style {
+  margin-top: 40px;
+  color: #52616c;
+  cursor: pointer;
+}
+.title_field_ctyle {
+  color: #6d808e;
+}

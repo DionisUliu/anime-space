@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="../../public/css/mainView.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anime</title>
+  </head>
+  <body>
+    <h1 class="main_title">Anime Space</h1>
+    <h1 class="title-field">Search</h1>
+    <div class="search_container">
+      <form id="form">
+          <input id="input" type="text" class="search_field_style" />
+          <button type="submit" class="search_button">Search</button>
+        </form>
+    </div>
+    <h1 class="title">Anime List</h1>
+    <div class="card_grid_container">
+      <% if (animeList.length===0) { %>
+        <h1>No animes found</h1>
+        <% } %> %>
+      <% animeList.forEach((anime)=>{%>
+      <article onclick=window.location.href="details/<%=anime.id %>">
+        <img src=<%=anime.image %>  alt="anime photo">
+          </img>
+        <div class="text">
+          <h3><%= anime.title%></h3>
+        </div>
+      </article>
+      <%});%>
+    </div>
+  </body>
+    <script>
+    let inputValue = '';
+    function getInputValue(event) {
+      inputValue = event.target.value;
+    }
+    function filter() {
+      const urlParams = new URLSearchParams(window.location.search);
+      urlParams.set('title', inputValue);
+      window.location.search = urlParams;
+    }
+
+    const input = document.getElementById('input');
+    const form = document.getElementById('form');
+
+    input.addEventListener('input', (event) => getInputValue(event));
+    form.addEventListener('change', () => filter());
+  </script>
+</html>

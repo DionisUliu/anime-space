@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200;300;400;500;600&display=swap');
+
+body {
+  background-color: #edf1f7;
+}
+
+.main_title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  color: #485965;
+}
+
+.title-field {
+  padding-left: 10%;
+  font-size: 15px;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 500;
+  color: #566876;
+  margin-top: 1%;
+}
+
+.search_container {
+  display: flex;
+  justify-content: start;
+  padding-inline-start: 10%;
+  gap: 20px;
+}
+#form {
+  display: flex;
+  gap: 20px;
+}
+.search_button {
+  background: #fbfbfb;
+  border-radius: 6px;
+  border: none;
+  height: 40px;
+  box-shadow: #6784bb45 0px 20px 25px -5px, #6784bb51 0px 10px 10px -5px;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 600;
+  color: #566876;
+  cursor: pointer;
+}
+.search_button:hover {
+  box-shadow: #6784bb51 0px 10px 10px -5px;
+  transition: 500ms;
+}
+
+.search_field_style {
+  background: rgb(251, 251, 251);
+  border-radius: 6px;
+  border: none;
+  box-shadow: #6784bb45 0px 20px 25px -5px, #6784bb51 0px 10px 10px -5px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 13px auto 13px;
+  letter-spacing: 0.03rem;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 300;
+  color: #566876;
+  padding: 11px 16px;
+  padding-left: 13px;
+  margin-bottom: 2%;
+  padding-left: 40px;
+  background-image: url(./searchIcon.png);
+  background-repeat: no-repeat;
+  background-size: 7%;
+  background-position: 15px 13px;
+}
+.search_field_style:focus {
+  border-color: none;
+}
+.search_field_style:hover {
+  box-shadow: #6784bb51 0px 10px 10px -5px;
+  transition: 500ms;
+}
+
+.title {
+  padding-left: 10%;
+  font-size: 20px;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 600;
+  color: #647380;
+}
+
+.card_grid_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 5px;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+.card_grid_container > article {
+  border-radius: 5px;
+}
+
+.card_grid_container > article img {
+  max-width: 100%;
+  box-shadow: #6784bb 0px 2px 5px -1px, #6784bb 0px 1px 3px -1px;
+  border-radius: 5px;
+  width: 200px;
+  height: 300px;
+  cursor: pointer;
+}
+
+.text {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 200;
+  font-size: 13px;
+  color: #758898;
+  cursor: pointer;
+}
+
+.text:hover {
+  color: #2f8dda;
+}

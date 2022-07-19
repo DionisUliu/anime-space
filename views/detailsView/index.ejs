@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="../../public/css/detailsView.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/c73aecfb6a.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anime Details</title>
+  </head>
+  <body>
+    <div class="details_container">
+      <div class="title_navigate_container">
+       <h1 class="title_style"><%=anime.title%></h1>
+       <i class="fa-solid fa-circle-arrow-left fa-2xl navigate_style" onclick="history.back()"></i>
+       </div>
+      <div class="wrapper_details">
+      <div class="image_container">
+        <article>
+        <img src=<%=anime.image %>>
+          </img>
+       </article>
+       </div class="details_card_wrapper">
+         <div class="details_card">
+            <span class="span_style">
+            <i class="fa-solid fa-clapperboard icon_style fa-2xl"></i>
+            <p class="details_font_style"> <span class="title_field_ctyle">Episode:</span> <%=anime.episodes%> </p>
+            </span>
+            <span class="span_style">
+              <i class="fa-solid fa-photo-film icon_style fa-2xl"></i> 
+              <p class="details_font_style"> <span class="title_field_ctyle">Format:</span> <%=anime.format%> </p>
+            </span>
+            <span class="span_style">
+              <i class="fa-solid fa-clock icon_style fa-2xl" ></i>
+              <p class="details_font_style"> <span class="title_field_ctyle">Epi_duration:</span> <%=anime.episode_duration%> </p>
+            </span>
+            <span class="span_style">
+              <i class="fa-solid fa-building-flag icon_style fa-2xl"></i>
+              <p class="details_font_style"> <span class="title_field_ctyle">Studio:</span> <%=anime.studios%></p>
+            </span>
+            <span class="span_style">
+              <i class="fa-solid fa-star-half-stroke icon_style fa-2xl" ></i>
+              <p class="details_font_style"> <span class="title_field_ctyle">Avg_score:</span> <%=anime.average_score%></p>
+            </span>
+            <span class="span_style">
+              <i class="fa-solid fa-face-grin-stars icon_style fa-2xl"></i>
+              <p class="details_font_style"> <span class="title_field_ctyle">Popilarity:</span> <%=anime.popularity%></p>
+            </span>  
+          </div>
+       </div>
+       </div>
+  </body>
+</html>
