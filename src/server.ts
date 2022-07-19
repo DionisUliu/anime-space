@@ -1,8 +1,8 @@
 import { Request, Response } from 'express';
-var express = require('express');
-var app = express();
+const express = require('express');
+const app = express();
 import { showAnimeDetails, filterAnime } from './functions/functions';
-var PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use('/public', express.static('public'));
 
@@ -18,5 +18,5 @@ app.get('*', (req: Request, res: Response) => {
 
 app.listen(PORT, function (err: Response) {
   if (err) console.log(err);
-  console.log('Server listening on PORT', PORT);
+  console.log('Server listening on PORT', process.env.PORT || 3000);
 });

@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var express = require('express');
-var app = express();
+const express = require('express');
+const app = express();
 const functions_1 = require("./functions/functions");
-var PORT = 3000;
+const PORT = process.env.PORT || 3000;
 app.use('/public', express.static('public'));
 app.set('view engine', 'ejs');
 app.get('', functions_1.filterAnime);
@@ -14,5 +14,5 @@ app.get('*', (req, res) => {
 app.listen(PORT, function (err) {
     if (err)
         console.log(err);
-    console.log('Server listening on PORT', PORT);
+    console.log('Server listening on PORT', process.env.PORT || 3000);
 });
