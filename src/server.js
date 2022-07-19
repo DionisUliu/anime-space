@@ -14,5 +14,5 @@ app.get('*', (req, res) => {
 app.listen(PORT, function (err) {
     if (err)
         console.log(err);
-    console.log('Server listening on PORT', process.env.PORT || 3000);
+    console.log('Server listening on PORT', PORT);
 });
